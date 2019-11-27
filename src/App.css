@@ -1,22 +1,65 @@
-.App {
-  text-align: center;
+.container {
+    margin-top: 40px;
+    
 }
-
-.App-logo {
-  height: 40vmin;
+.col-6 {
+    border: 1px solid royalblue;
+    border-radius: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title {
+    height: 40px;
+    background-color: aqua;
+    margin-bottom: 20px;
+    text-align: justify;
+    border-radius: 10px;
 }
-
-.App-link {
-  color: #09d3ac;
+.bt {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.gray {
+    background-color: gray;
+}
+.down{
+    background-color: greenyellow;
+    height: 40px;
+    width: 80px;
+    margin-left: 20px;
+}
+.up{
+    background-color: greenyellow;
+    height: 40px;
+    width: 80px;
+    margin-left: 20px;
+}
+.h6 {
+    margin-top: 30px;
+    text-align: center;
+}
+.reset {
+    height: 40px;
+    width: 100px;
+    background-color: coral;
+}
+.col-12 {
+    border-radius: 10px;
+    border: 1px solid royalblue;
+}
+.text-content {
+    background-color: #aaa;
+    border-radius: 10px;
+    color: yellow;
+}
+button:active {
+    border-radius:5px ;
 }
